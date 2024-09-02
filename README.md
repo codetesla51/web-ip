@@ -1,4 +1,4 @@
-# Web-ip CLI Tool
+# Web-IP CLI Tool
 
 `web-ip` is a simple PHP-based command-line tool that retrieves the IP address and geolocation of a website based on its URL. The tool also saves this information to a text file (`web-info.txt`), creating the file if it doesn't already exist.
 
@@ -19,12 +19,44 @@ Before running the tool, make sure you have the following installed:
 
 ## Installation
 
-### 1. Clone the Repository
-First, clone this repository to your local machine:
+### 1. Install Composer
+
+Composer is a dependency manager for PHP. Follow the instructions below to install Composer.
+
+#### On Linux and macOS:
+``bash
+php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+php composer-setup.php
+php -r "unlink('composer-setup.php');"
+sudo mv composer.phar /usr/local/bin/composer``
+#### On Windows Visit:
+``bash
+composer --version
+``
+
+ ### 2. Clone Repository 
+
+ ``bash
+ git clone https://github.com/codetesla51/web-ip.git
+cd web-ip``
+
+### 3. Install Dependencies 
 
 ``bash
-git clone https://github.com/codetesla51/web-ip.git
-cd web-zip``
-## Install Guzzle From Composer 
+composer require guzzlehttp/guzzle
+``
+### 4.Install Figlet And Toilet 
+
 ``bash
-composer require guzzlehttp/guzzle ``
+sudo apt-get update
+sudo apt-get install toilet figlet``
+
+### Run Script 
+
+``bash
+php web-ip.php``
+
+## Usage
+ ## 1. The script will prompt you to enter a website URL.
+## 2. After entering the URL, it will resolve the IP address and fetch the geolocation data.
+## 3. The IP address and geolocation information will be displayed in the terminal and saved to web-info.txt in the current directory.
