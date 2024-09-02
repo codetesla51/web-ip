@@ -24,36 +24,36 @@ Before running the tool, make sure you have the following installed:
 Composer is a dependency manager for PHP. Follow the instructions below to install Composer.
 
 #### On Linux and macOS:
-``bash
+``
 php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
 php composer-setup.php
 php -r "unlink('composer-setup.php');"
 sudo mv composer.phar /usr/local/bin/composer``
 #### On Windows Visit:
-``bash
+``
 composer --version
 ``
 
  ### 2. Clone Repository 
 
- ``bash
+ ``
  git clone https://github.com/codetesla51/web-ip.git
 cd web-ip``
 
 ### 3. Install Dependencies 
 
-``bash
+``
 composer require guzzlehttp/guzzle
 ``
 ### 4.Install Figlet And Toilet 
 
-``bash
+``
 sudo apt-get update
 sudo apt-get install toilet figlet``
 
 ### Run Script 
 
-``bash
+``
 php web-ip.php``
 
 ## Usage
