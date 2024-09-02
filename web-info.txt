@@ -1,0 +1,18 @@
+URL: https://uthmandev.vercel.app/
+IP Address: 76.76.21.98
+Location: Walnut, California, United States
+Latitude: 34.0233
+Longitude: -117.8512
+-------------------------------------
+URL: https://uthmandev.vercel.app/
+IP Address: 76.76.21.22
+Location: Walnut, California, United States
+Latitude: 34.0233
+Longitude: -117.8512
+-------------------------------------
+URL: https://www.google.com/
+IP Address: 142.250.188.228
+Location: Los Angeles, California, United States
+Latitude: 34.0549
+Longitude: -118.243
+-------------------------------------
